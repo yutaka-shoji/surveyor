@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+*.local
+.vite-inspect
+.remote-assets
+components.d.ts
+dist
+
+# ignore papers
+incoming/
