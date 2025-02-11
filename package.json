@@ -1,0 +1,48 @@
+{
+  "name": "survey",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build topics/$npm_config_topic/slides.md --out topics/$npm_config_topic/dist",
+    "dev": "slidev topics/$npm_config_topic/slides.md --open",
+    "export": "slidev export topics/$npm_config_topic/slides.md --output topics/$npm_config_topic/slides.pdf",
+    "screenshot": "slidev export --format png topics/$npm_config_topic/slides.md --output topics/$npm_config_topic/slides"
+  },
+  "dependencies": {
+    "@slidev/cli": "^51.1.0",
+    "@slidev/theme-apple-basic": "^0.25.1",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "playwright-chromium": "^1.50.1",
+    "prettier": "^3.4.2",
+    "prettier-plugin-slidev": "^1.0.5",
+    "scaffdog": "^4.1.0",
+    "slidev-addon-stem": "^0.0.1",
+    "vue": "^3.5.13"
+  },
+  "packageManager": "pnpm@10.3.0+sha512.ee592eda8815a8a293c206bb0917c4bb0ff274c50def7cbc17be05ec641fc2d1b02490ce660061356bd0d126a4d7eb2ec8830e6959fb8a447571c631d5a2442d",
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "eslint": "^9.20.0",
+    "eslint-plugin-vue": "^9.32.0",
+    "globals": "^15.14.0",
+    "typescript-eslint": "^8.23.0"
+  },
+  "prettier": {
+    "overrides": [
+      {
+        "files": [
+          "slides.md",
+          "paper.md",
+          "append.md"
+        ],
+        "options": {
+          "parser": "slidev",
+          "plugins": [
+            "prettier-plugin-slidev"
+          ]
+        }
+      }
+    ]
+  }
+}
