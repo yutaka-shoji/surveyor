@@ -26,11 +26,11 @@
    - tex形式: `paper.tex`, `reference.bib`, `citation.bib`, `figure1.png`, `figure2.png`, ...
    - pdf形式: `paper.pdf`, `citation.bib`, `figure1.png`, `figure2.png`, ...
 
-   > [!NOTE]
-   > pdfの場合画像ファイル名は本文中の番号に対応している必要があります
+> [!NOTE]
+> pdfの場合画像ファイル名は本文中の番号に対応している必要があります
 
-   > [!TIP]
-   > 一度に複数の論文をディレクトリを分けて保存しても大丈夫です
+> [!TIP]
+> 一度に複数の論文をディレクトリを分けて保存しても大丈夫です
 
 2. Rooに「サーベイ開始」または「start survey」とプロンプトを流します
 3. 指示に従って, 論文ごとに `topics/` 内にディレクトリを作成し, 論文の要約スライドを作成します.
