@@ -11,8 +11,8 @@
 ## Initial Setup
 
 1. [Roo Code](https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline) をインストール
-2. `cline_custom_modes.json` の内容を`Roo Code`のカスタムモードとして配置 (下記画像`{}`のマークから`cline_custom_modes.json`にコピー, Paper Surveyor モードができればOK)
-   ![Paper Surveyor Mode](assets/custom_mode.png)
+2. `cline_custom_modes.json` の内容を`Roo Code`のカスタムモードとして配置 (下記画像`{}`のマークから`cline_custom_modes.json`にコピー, Paper Surveyor モードができればOK)  
+   <img src="assets/custom_mode.png" width="25%">
 3. 依存パッケージのインストール:
    ([npm/pnpmなどがインストールされていない場合](https://pnpm.io/installation))
    ```sh
