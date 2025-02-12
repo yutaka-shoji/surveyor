@@ -25,11 +25,11 @@
 ### 1.2 ファイル変換と管理
 
 1. 図表をPNG形式に変換 (※図がpngでない場合)
+   - デフォルトシェルを確認 (bash/fish/pwsh?) し、適切なコマンド構文を使用
    - 解像度: 300 DPI
    - 使用ツール:
      - macOS: sips
      - その他: magick (ImageMagick)
-   - デフォルトシェルを確認 (bash/fish/pwsh?) し、適切なコマンド構文を使用
 2. 変換した画像ファイルを `topics/{topic-name}/{yyyy-author}/public/` ディレクトリに保存
 
 ### 1.3 スライド作成プロセス
