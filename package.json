@@ -6,7 +6,8 @@
     "build": "slidev build topics/$npm_config_topic/slides.md --out topics/$npm_config_topic/dist",
     "dev": "slidev topics/$npm_config_topic/slides.md --open",
     "export": "slidev export topics/$npm_config_topic/slides.md --output topics/$npm_config_topic/slides.pdf",
-    "screenshot": "slidev export --format png topics/$npm_config_topic/slides.md --output topics/$npm_config_topic/slides"
+    "screenshot": "slidev export --format png topics/$npm_config_topic/slides.md --output topics/$npm_config_topic/slides",
+    "clean": "node -e \"require('fs').readdirSync('incoming/').filter(f => f !== '.gitkeep').map(f => require('fs').rmSync('incoming/' + f, { recursive: true, force: true }))\""
   },
   "dependencies": {
     "@slidev/cli": "^51.1.0",
