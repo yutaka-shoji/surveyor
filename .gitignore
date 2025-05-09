@@ -9,3 +9,7 @@ dist
 # ignore papers
 incoming/*
 !incoming/.gitkeep
+
+# topics
+topics/*
+!topics/.gitkeep
